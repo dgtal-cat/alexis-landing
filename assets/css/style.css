@@ -1,5 +1,45 @@
+@import "button/button.css";
+@import "card/card.css";
+@import "feedback/feedback.css";
+@import "footer/footer.css";
+@import "header/header.css";
+@import "input/input.css";
+@import "modificators/modificators.css";
+@import "section/section.css";
+@import "subscribe/subscribe.css";
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Poppins');
+
+@font-face {
+    font-family: Wisdom;
+    src: url("../fonts/ThirstyScriptExtraBoldDemo.otf");
+}
+
+:root {
+    --color-red: #fc5f45;
+    --color-green: #38c695;
+    --color-violet: #b27cf5;
+    --color-orange: #feb960;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.wrapper {
+    width: 100%;
+}
+
+.content-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    display: block;
+    clear: both;
+}
+
+.colored-text__red {
+    color: var(--color-red);
+}
+
